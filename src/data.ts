@@ -6,9 +6,9 @@ type finalJeopardyQuestion = {
 }
 
 export const finalJeopardyData: finalJeopardyQuestion = {
-    category: "Indiana History",
-    question: "This Indianapolis suburb was originally named after the biblical town of Bethlehem, but had to be changed once incorporated",
-    answer: "Carmel, Indiana"
+    category: "Lore of Indiana",
+    question: "Once considered folklore but now confirmed to be a real event by historians, this 1822 event is infamous for resulting in massive crop devastation across Central Indiana.",
+    answer: "The Great Squirrel Stampede"
 }
 
 type question = {
@@ -24,187 +24,187 @@ type board = {
 }
 
 export const board1data: board = {
-    "Indy 500":
+    "Famous Hoosiers":
     [
         {
-            question: "While named after the amount of miles in the race, this is how many laps Indycar drivers complete",
-            answer: "200",
+            question: "This basketball player was known for his trash talk and white boy motion on the court.",
+            answer: "Larry Bird",
             picture: null,
             doubleJeopardy: false,
             price: 200
         },
         {
-            question: "On the Indiana state quarter, this phrase was printed along a picture of an indycar",
-            answer: "Crossroads of America",
-            picture: "quarter.png",
+            question: "As counter-culture icon with a rebellious attitude, this 1950s actor tragically died at the age of 24 in an automobile accident.",
+            answer: "James Dean",
+            picture: null,
             doubleJeopardy: false,
             price: 400
         },
         {
-            question: "This day is named after an older car part that mixes fuel and oxygen",
-            answer: "Carb Day",
+            question: "This hip-hop artist was born in Gary, and is known for his lyrical technique and collaboration with the DJ Madlib.",
+            answer: "Freddie Gibbs",
             picture: null,
             doubleJeopardy: false,
             price: 600
         },
         {
-            question: "This game was played at last year's Indy 500 party",
-            answer: "Family Feud",
-            picture: null,
+            question: "Getting his start with the People's Temple in Indianapolis, this cult leader is infamous for orchestrating a mass suicide of over 900 people.",
+            answer: "Jim Jones",
+            picture: "jimjones.jpg",
             doubleJeopardy: false,
             price: 800
         },
         {
-            question: "Going by his stage name, DJ Diesel, this artist performed at last year's snake pit",
-            answer: "Shaq",
+            question: "Frequently collaborating with his two brothers, this Jazz guitarist is famous for his plucking technique.",
+            answer: "Wes Montgomery",
             picture: null,
             doubleJeopardy: false,
             price: 1000
         }
     ],
-    "Flashback: Nintendo": [
+    "Political History": [
         {
-            question: "Nintendo's popular mascot, Mario, first appeared in this game",
-            answer: "Donkey Kong (1981)",
+            question: "The last time a Democrat won the state of Indiana in a presidental race was during this person's presidential campaign.",
+            answer: "Barack Obama",
             picture: null,
             doubleJeopardy: false,
             price: 200
         },
         {
-            question: "This is the name of the map in the hit Wii Game, Wii Sports Resort",
-            answer: "Wuhu Island",
-            picture: "wuhu.png",
+            question: "While only being in the position for 10 days, this former White House communications director generated countless memes from his press conferences.",
+            answer: "Anthony Scaramucci",
+            picture: "whitehouseguy.png",
             doubleJeopardy: false,
             price: 400
         },
         {
-            question: "This smash bros game was the first to introduce Ice Climbers",
-            answer: "Super Smash Bros. Melee",
+            question: "Prior to being married to Don Jr, this former California District Attorney was in a relationship with this notable Democrat mayor and governor.",
+            answer: "Gavin Newsom",
             picture: null,
             doubleJeopardy: false,
             price: 600
         },
         {
-            question: "This was Nintendo's first portable gaming device, named after its two features",
-            answer: "Game & Watch",
-            picture: "gameandwatch.png",
+            question: "Known for his immense aura when he would play the saxophone while being a sitting president.",
+            answer: "Bill Clinton",
+            picture: null,
             doubleJeopardy: false,
             price: 800
         },
         {
-            question: "This add-on was released for the N64 to play games via disc rather than cartridge",
-            answer: "64DD",
+            question: "In the mid 19th century, this political party was the opposition to the newely formed Democratic Party and would later become the Republican Party.",
+            answer: "Whigs",
             picture: null,
             doubleJeopardy: false,
             price: 1000
         }
     ],
-    "Generational Slang": [
+    "Zoomer Slang": [
         {
-            question: "This term originated from a game in which 6 players try to complete tasks while being hunted by two imposters",
-            answer: "sus",
-            picture: null,
-            doubleJeopardy: true,
-            price: 200
-        },
-        {
-            question: "Taking off in the late 2010s, this slang term is used for a marijuana vaporizer",
-            answer: "Penjamin",
-            picture: null,
-            doubleJeopardy: false,
-            price: 400
-        },
-        {
-            question: "Made famous in a song of the same name, this term means you support someone or something",
-            answer: "Stan",
-            picture: null,
-            doubleJeopardy: false,
-            price: 600
-        },
-        {
-            question: "While this phrase gained popularity in RuPaul's Drag Race, it's origins come from the 1995 film Friday",
-            answer: "Bye Felecia",
-            picture: "friday.png",
-            doubleJeopardy: false,
-            price: 800
-        },
-        {
-            question: "While younger generations may call them “12” or “opps”, the baby boomer generation used this term to describe police, best known for its use in the 2007 buddy-cop movie title hot ____",
-            answer: "Fuzz",
-            picture: "hotfuzz.png",
-            doubleJeopardy: false,
-            price: 1000
-        }
-    ],
-    "2000s Pop": [
-        {
-            question: "This duo was famously sampled in the kanye west song “stronger”",
-            answer: "Daft Punk",
+            question: "This word is used to describe someone's innate reputation or charisma.",
+            answer: "Aura",
             picture: null,
             doubleJeopardy: false,
             price: 200
         },
         {
-            question: "It was never this group's intention to brag when they released Misery Business ",
-            answer: "Paramore",
+            question: "Becoming popular in the late 2010s, this word refers to what happens when one hits a cannabis cart for a long period.",
+            answer: "Blinker",
             picture: null,
             doubleJeopardy: false,
             price: 400
         },
         {
-            question: "This group wanted to let you know that you were so 2000-late",
-            answer: "The Black Eyed Peas",
+            question: "This word comes from a 1984 B-horror film of the same name, but was later popularized by online incel communities.",
+            answer: "Chud",
             picture: null,
             doubleJeopardy: false,
             price: 600
         },
         {
-            question: "This group magically appeared on your ipod in 2014",
-            answer: "U2",
+            question: "Originating from online bodybuilding forums, this word is used to describe the act of physically dominating someone.",
+            answer: "Mogging",
             picture: null,
             doubleJeopardy: false,
             price: 800
         },
         {
-            question: "This radio hit, “Crazy” was made by Danger Mouse and former Goodie mob member, CeeLo Green, under this name",
-            answer: "Gnarls Barkley",
+            question: "While you might use this to “settle some beef“, it can also literally mean a beef frank.",
+            answer: "Glizzy",
             picture: null,
             doubleJeopardy: false,
             price: 1000
         }
     ],
-    "RIP IUPUI": [
+    "Musical Mayhem": [
         {
-            question: "This sex position is also the year that IUPUI was founded",
-            answer: "69",
+            question: "“Do You Hear The People Sing“ and “Bring Him Home“ are songs from this musical.",
+            answer: "Les Miserables",
             picture: null,
             doubleJeopardy: false,
             price: 200
         },
         {
-            question: "Built in 1928, this dorm hall was originally opened as a residence for nurses",
-            answer: "Ball Hall",
+            question: "As a fusion of samba and jazz, bossa nova was formed in the 1950s from this country.",
+            answer: "Brazil",
             picture: null,
             doubleJeopardy: false,
             price: 400
         },
         {
-            question: "These are the three jaguar mascots of IUPUI",
-            answer: "Jawz, Jazzy, Jinx",
-            picture: "jags.jpg",
+            question: "This orchestral style from the early 20th century swing era had an alliterative name.",
+            answer: "Big Band",
+            picture: "bigband.jpg",
             doubleJeopardy: false,
             price: 600
         },
         {
-            question: "Notable Herron Alumni, Norman Bridwell, is known as the author and illustrator of this childrens book series",
-            answer: "Clifford the Big Red Dog",
+            question: "In this musical, swooning teenagers sing “We Love You Conrad“ to rock star Conrad Birdie.",
+            answer: "Bye Bye Birdie",
             picture: null,
             doubleJeopardy: false,
             price: 800
         },
         {
-            question: "This is the first school of its kind, created in 2012 under the Lily Family name",
-            answer: "School of Philanthropy",
+            question: "The process of changing from one key or tonality to another is called this.",
+            answer: "Transposition/Modulation",
+            picture: null,
+            doubleJeopardy: false,
+            price: 1000
+        }
+    ],
+    "Sports": [
+        {
+            question: "This hall of fame quarterback led the Colts to the 2007 Super Bowl.",
+            answer: "Peyton Manning",
+            picture: null,
+            doubleJeopardy: false,
+            price: 200
+        },
+        {
+            question: "This team was originally from Baltimore before relocating to Indianapolis following the 1983 season.",
+            answer: "Colts",
+            picture: null,
+            doubleJeopardy: false,
+            price: 400
+        },
+        {
+            question: "This Indianapolis team hosts “Pucks & Paws“, where you can bring your furry friend to watch the game.",
+            answer: "Indy Fuel",
+            picture: null,
+            doubleJeopardy: false,
+            price: 600
+        },
+        {
+            question: "While this NHL team cannot actually fly, they do hold the record for most Stanley Cups.",
+            answer: "Detroit Red Wings",
+            picture: null,
+            doubleJeopardy: false,
+            price: 800
+        },
+        {
+            question: "This Polish-American baseball player is the only one to ever hit a walk-off home run in the world series.",
+            answer: "Bill Mazeroski",
             picture: null,
             doubleJeopardy: false,
             price: 1000
@@ -212,191 +212,186 @@ export const board1data: board = {
     ]
 }
 export const board2data: board = {
-    "Rap Beef of 2024": 
-    [
+    "Television": [
         {
-            question: "After releasing this track, J. Cole apologized two day laters and removed himself from the beef",
-            answer: "7 Minute Drill",
+            question: "Taking its name from an Orwell character, this show has contestants living in a house together and causing drama.",
+            answer: "Big Brother",
             picture: null,
             doubleJeopardy: false,
             price: 400
         },
         {
-            question: "This artist jumped on Metro Boomin's BBL Drizzy after famous projects “Pirates on a Boat” and “4 Wheeler”",
-            answer: "Yuno Miles",
-            picture: null,
+            question: "What show is this quote from?",
+            answer: "Game of Thrones",
+            picture: "littlefinger.jpg",
             doubleJeopardy: false,
             price: 800
         },
-        {
-            question: "Attacking him for his nose job, this rapper dissed drake by calling him a white boy on Champagne Moments",
-            answer: "Rick Ross",
+		{
+            question: "Characters on this series include Sally Draper & office manager Joan Holloway.",
+            answer: "Mad Men",
             picture: null,
             doubleJeopardy: false,
             price: 1200
         },
         {
-            question: "Referenced in the rap beef, Pusha T wrote “The Story of Adidon” on top of this famous songs beat",
-            answer: "The Story of O.J.",
+            question: "When “Cheers“ ended, this character played by Kelsey Grammer moved to Seattle and became a radio shrink.",
+            answer: "Frasier",
             picture: null,
             doubleJeopardy: false,
             price: 1600
         },
         {
-            question: "Written in letters, Kendrick Lamar writes to these three named members of the family on Meet the Grahams",
-            answer: "Aubrey, Adonis, Sandra",
+            question: "This 1970s sitcom about Army doctors during the Korean War and was a spinoff for a film with the same name.",
+            answer: "M*A*S*H",
             picture: null,
             doubleJeopardy: false,
             price: 2000
         }
     ],
-    "Horror Films":
-    [
+    "Artists": [
         {
-            question: "This franchise follows the investigations of Ed and Lorraine Warren",
-            answer: "The Conjuring",
+            question: "For the 2026 reboot of “The Muppets Show“, this pop singer performed a rendition of her hit song “Manchild“.",
+            answer: "Sabrina Carpenter",
             picture: null,
             doubleJeopardy: false,
             price: 400
         },
         {
-            question: "This is the latest entry in the Evil Dead franchise",
-            answer: "Evil Dead Rise",
+            question: "In the late 2000s, this party girl pop star released the hit single “TiK ToK“.",
+            answer: "Ke$ha",
             picture: null,
             doubleJeopardy: false,
             price: 800
         },
         {
-            question: "Originally taking place in Woodsboro, CA - the most recent addition to the franchise takes place in New York City",
-            answer: "Scream",
+            question: "It was never this group's intention to brag when they released their song “Misery Business“.",
+            answer: "Paramore",
+            picture: null,
+            doubleJeopardy: false,
+            price: 1200
+        },
+        {
+            question: "This American folk singer-songwriter is known for hits like “Bad, Bad Leroy Blame“ and “Time in a Bottle“.",
+            answer: "Jim Croce",
+            picture: null,
+            doubleJeopardy: false,
+            price: 1600
+        },
+        {
+            question: "Before releasing hit albums like “The Fame“ and “Artpop“, she was an extra on “The Sopranos“.",
+            answer: "Lady Gaga",
+            picture: null,
+            doubleJeopardy: false,
+            price: 2000
+        }
+    ],
+    "Hoosier History": [
+        {
+            question: "This popular nickname for Indianapolis originated from the city's 1920s Jazz scene.",
+            answer: "Naptown",
+            picture: null,
+            doubleJeopardy: false,
+            price: 400
+        },
+        {
+            question: "Prior to 1816, this city was the capital of Indiana.",
+            answer: "Corydon",
+            picture: null,
+            doubleJeopardy: false,
+            price: 800
+        },
+        {
+            question: "This northern city is famous for being the home of the Studebaker automobile company.",
+            answer: "South Bend",
+            picture: null,
+            doubleJeopardy: false,
+            price: 1200
+        },
+        {
+            question: "This Hoosier college was the first university in the United States to have a Computer Science department.",
+            answer: "Purdue University",
             picture: null,
             doubleJeopardy: true,
-            price: 1200
-        },
-        {
-            question: "Originally given an X rating due to its sexual and gory nature, many cuts had to be made from this 1987 horror film",
-            answer: "Hellraiser",
-            picture: null,
-            doubleJeopardy: false,
             price: 1600
         },
         {
-            question: "This movie about a dancer was famously shot on 16mm",
-            answer: "Black Swan",
+            question: "This Indianapolis suburb was originally named after the biblical town of Bethlehem, but was changed after the town was incorporated.",
+            answer: "Carmel",
             picture: null,
             doubleJeopardy: false,
             price: 2000
         }
     ],
-    "Indiana Alcohol":
-    [
+    "World Geography": [
         {
-            question: "This is the official beer of the indianapolis colts",
-            answer: "Bud Light",
+            question: "This body of water connects the Gulf of Oman to the Persian Gulf.",
+            answer: "Strait of Hormuz",
             picture: null,
             doubleJeopardy: false,
             price: 400
         },
         {
-            question: "This is the official beer of the Indy 500 Carb Day",
-            answer: "Miller Light",
+            question: "This body of water is the lowest land below sea level, and aptly named due to it's high salinity.",
+            answer: "Dead Sea",
             picture: null,
             doubleJeopardy: false,
             price: 800
         },
         {
-            question: "This Indiana-brewed American Pale Ale seems as though it was made for the undead ",
-            answer: "Zombie Dust",
+            question: "In this frigid region, Russia's Lena River rises to Lake Baikal and flows north to the Laptev Sea.",
+            answer: "Siberia",
             picture: null,
             doubleJeopardy: false,
             price: 1200
         },
         {
-            question: "This local distillery uses the NATO alphabet and is owned by a Marine Corp Veteran",
-            answer: "Hotel Tango",
+            question: "Canada's smallest providence, and the only one not connected to the North American mainland.",
+            answer: "Prince Edward Island",
             picture: null,
             doubleJeopardy: false,
             price: 1600
         },
         {
-            question: "This is the year that indiana passed the law for sunday alcohol sales",
-            answer: "2018",
+            question: "This long stretch of South American rainforest acts as a natural barrier between North and South America.",
+            answer: "Darien Gap",
             picture: null,
-            doubleJeopardy: true,
-            price: 2000
-        }
-    ],
-    "Counter-Strike":
-    [
-        {
-            question: "This was the first Counter-Strike to use the Source Engine",
-            answer: "Counter-Strike: Source",
-            picture: null,
-            doubleJeopardy: false,
-            price: 400
-        },
-        {
-            question: "This gun is widely renowned as the best in the game, costing only $1700",
-            answer: "Negev",
-            picture: null,
-            doubleJeopardy: false,
-            price: 800
-        },
-        {
-            question: "Counter-Strike was first developed as a mod of this game",
-            answer: "Half-Life",
-            picture: null,
-            doubleJeopardy: false,
-            price: 1200
-        },
-        {
-            question: "This is the sole achievement of Counter-Strike 2",
-            answer: "A New Beginning / This is Counter-Strike, too",
-            picture: null,
-            doubleJeopardy: false,
-            price: 1600
-        },
-        {
-            question: "This Dust 2 smoke from ct spawn covers this location",
-            answer: "mid doors",
-            picture: "smoke.png",
             doubleJeopardy: false,
             price: 2000
         }
     ],
-    "Hoosier Sports":
-    [
+    "Ancient Slang": [
         {
-            question: "This famous new addition was a first round draft pick in Indianapolis",
-            answer: "Caitlin Clark",
+            question: "When someone will not stop talking, you can tell them to quit doing this.",
+            answer: "Yapping",
             picture: null,
             doubleJeopardy: false,
             price: 400
         },
         {
-            question: "This Indianapolis team started in Baltimore, MD",
-            answer: "Indianapolis Colts",
+            question: "This word is used to refer to someone who is uncool or conventional.",
+            answer: "Square",
             picture: null,
             doubleJeopardy: false,
             price: 800
         },
         {
-            question: "This Indianapolis team hosts pucks and paws so that you can bring your furry friend to the game",
-            answer: "Indy Fuel",
+            question: "One might call this phrase “buzzing“, as it refers to something being superb.",
+            answer: "Bee's Knees",
             picture: null,
             doubleJeopardy: false,
             price: 1200
         },
         {
-            question: "This Pacer left the team in 2005 after his 18 year career in Indianapolis",
-            answer: "Reggie Miller",
+            question: "If someone has immense courage or initative, you might say they have a lot of this.",
+            answer: "Moxie",
             picture: null,
             doubleJeopardy: false,
             price: 1600
         },
         {
-            question: "While a new stadium is being developed in Indianapolis, this team currently shares a stadium with IUPUI's team of the same sport",
-            answer: "Indy Eleven",
+            question: "This two word phrase includes the word for a person's chest and means to speak honestly.",
+            answer: "Unbosom Yourself",
             picture: null,
             doubleJeopardy: false,
             price: 2000
