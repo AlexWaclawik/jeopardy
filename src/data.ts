@@ -50,7 +50,7 @@ export const board1data: board = {
         {
             question: "Getting his start with the People's Temple in Indianapolis, this cult leader is infamous for orchestrating a mass suicide of over 900 people.",
             answer: "Jim Jones",
-            picture: "jimjones.jpg",
+            picture: "jimjones.png",
             doubleJeopardy: false,
             price: 800
         },
@@ -154,7 +154,7 @@ export const board1data: board = {
         {
             question: "This orchestral style from the early 20th century swing era had an alliterative name.",
             answer: "Big Band",
-            picture: "bigband.jpg",
+            picture: "bigband.png",
             doubleJeopardy: false,
             price: 600
         },
@@ -221,9 +221,9 @@ export const board2data: board = {
             price: 400
         },
         {
-            question: "What show is this quote from?",
+            question: "In this 2010s fantasy political drama, the character Littlefinger famous said “Chaos is a ladder“.",
             answer: "Game of Thrones",
-            picture: "littlefinger.jpg",
+            picture: "littlefinger.png",
             doubleJeopardy: false,
             price: 800
         },
