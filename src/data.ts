@@ -6,9 +6,9 @@ type finalJeopardyQuestion = {
 }
 
 export const finalJeopardyData: finalJeopardyQuestion = {
-    category: "Lore of Indiana",
-    question: "Once considered folklore but now confirmed to be a real event by historians, this 1822 event is infamous for resulting in massive crop devastation across Central Indiana.",
-    answer: "The Great Squirrel Stampede"
+    category: "Political Lingo",
+    question: "Senate Rule 22 governs this and Clinton called it “posturing which proves that a minority can paralyze the federal government“.",
+    answer: "Filibuster"
 }
 
 type question = {
@@ -62,7 +62,7 @@ export const board1data: board = {
             price: 1000
         }
     ],
-    "Political History": [
+    "Political Lore": [
         {
             question: "The last time a Democrat won the state of Indiana in a presidental race was during this person's presidential campaign.",
             answer: "Barack Obama",
@@ -78,15 +78,15 @@ export const board1data: board = {
             price: 400
         },
         {
-            question: "Prior to being married to Don Jr, this former California District Attorney was in a relationship with this notable Democrat mayor and governor.",
-            answer: "Gavin Newsom",
+            question: "Not only was he honest, but he was also the first Republican president.",
+            answer: "Abraham Lincoln",
             picture: null,
             doubleJeopardy: false,
             price: 600
         },
         {
-            question: "Known for his immense aura when he would play the saxophone while being a sitting president.",
-            answer: "Bill Clinton",
+            question: "Prior to being married to Don Jr, this former California District Attorney was in a relationship with this notable Democrat mayor and governor.",
+            answer: "Gavin Newsom",
             picture: null,
             doubleJeopardy: false,
             price: 800
@@ -145,16 +145,16 @@ export const board1data: board = {
             price: 200
         },
         {
-            question: "As a fusion of samba and jazz, bossa nova was formed in the 1950s from this country.",
-            answer: "Brazil",
+            question: "Lin-Manuel Miranda was still in college when he conceived this musical set in the neighborhood on the northern tip of Manhattan.",
+            answer: "In The Heights",
             picture: null,
             doubleJeopardy: false,
             price: 400
         },
         {
-            question: "This orchestral style from the early 20th century swing era had an alliterative name.",
-            answer: "Big Band",
-            picture: "bigband.png",
+            question: "The final song in this musical is “Tomorrow Is A Latter Day“.",
+            answer: "The Book of Mormon",
+            picture: null,
             doubleJeopardy: false,
             price: 600
         },
@@ -166,45 +166,45 @@ export const board1data: board = {
             price: 800
         },
         {
-            question: "The process of changing from one key or tonality to another is called this.",
-            answer: "Transposition/Modulation",
+            question: "Annie Oakley and Frank Butler are the main characters in this 1946 Broadway musical.",
+            answer: "Annie Get Your Gun",
             picture: null,
             doubleJeopardy: false,
             price: 1000
         }
     ],
-    "Sports": [
+    "Television": [
         {
-            question: "This hall of fame quarterback led the Colts to the 2007 Super Bowl.",
-            answer: "Peyton Manning",
+            question: "Taking its name from an Orwell character, this show has contestants living in a house together and causing drama.",
+            answer: "Big Brother",
             picture: null,
             doubleJeopardy: false,
             price: 200
         },
         {
-            question: "This team was originally from Baltimore before relocating to Indianapolis following the 1983 season.",
-            answer: "Colts",
+            question: "Characters on this series include Sally Draper & office manager Joan Holloway.",
+            answer: "Mad Men",
             picture: null,
             doubleJeopardy: false,
             price: 400
         },
-        {
-            question: "This Indianapolis team hosts “Pucks & Paws“, where you can bring your furry friend to watch the game.",
-            answer: "Indy Fuel",
+		{
+            question: "In this fantasy political drama, we learned that “Chaos is a ladder“.",
+            answer: "Game of Thrones",
             picture: null,
             doubleJeopardy: false,
             price: 600
         },
         {
-            question: "While this NHL team cannot actually fly, they do hold the record for most Stanley Cups.",
-            answer: "Detroit Red Wings",
+            question: "When “Cheers“ ended, this character played by Kelsey Grammer moved to Seattle and became a radio shrink.",
+            answer: "Frasier",
             picture: null,
             doubleJeopardy: false,
             price: 800
         },
         {
-            question: "This Polish-American baseball player is the only one to ever hit a walk-off home run in the world series.",
-            answer: "Bill Mazeroski",
+            question: "This 1970s sitcom about Army doctors during the Korean War and was a spinoff for a film with the same name.",
+            answer: "M*A*S*H",
             picture: null,
             doubleJeopardy: false,
             price: 1000
@@ -212,38 +212,38 @@ export const board1data: board = {
     ]
 }
 export const board2data: board = {
-    "Television": [
+    "Potent Potables": [
         {
-            question: "Taking its name from an Orwell character, this show has contestants living in a house together and causing drama.",
-            answer: "Big Brother",
+            question: "When he first sipped this, Don Perignon cried “I am tasting the stars!“",
+            answer: "Champagne",
             picture: null,
             doubleJeopardy: false,
             price: 400
         },
         {
-            question: "In this 2010s fantasy political drama, the character Littlefinger famous said “Chaos is a ladder“.",
-            answer: "Game of Thrones",
-            picture: "littlefinger.png",
+            question: "This definitive tiki cocktail is made with rum, Curacao, orgeat, and lime.",
+            answer: "Mai Tai",
+            picture: null,
             doubleJeopardy: false,
             price: 800
         },
 		{
-            question: "Characters on this series include Sally Draper & office manager Joan Holloway.",
-            answer: "Mad Men",
+            question: "This liquor flows for 6 days at a September festival celebrating it in Bardstown, Kentucky.",
+            answer: "Bourbon",
             picture: null,
             doubleJeopardy: false,
             price: 1200
         },
         {
-            question: "When “Cheers“ ended, this character played by Kelsey Grammer moved to Seattle and became a radio shrink.",
-            answer: "Frasier",
+            question: "Despite its name, this cocktail of rye, sugar and bitters over ice is never out of date.",
+            answer: "Old Fashioned",
             picture: null,
             doubleJeopardy: false,
             price: 1600
         },
         {
-            question: "This 1970s sitcom about Army doctors during the Korean War and was a spinoff for a film with the same name.",
-            answer: "M*A*S*H",
+            question: "This wormwood bask liquor was introduced in Chicago during the 1930s by a Swedish immigrant and is known for its extremely bitter taste.",
+            answer: "Malört",
             picture: null,
             doubleJeopardy: false,
             price: 2000
@@ -316,8 +316,8 @@ export const board2data: board = {
             price: 1600
         },
         {
-            question: "This Indianapolis suburb was originally named after the biblical town of Bethlehem, but was changed after the town was incorporated.",
-            answer: "Carmel",
+            question: "Once considered folklore but now confirmed a real by historians, this 1822 event is infamous for resulting in massive crop devastation across Central Indiana.",
+            answer: "The Great Squirrel Stampede",
             picture: null,
             doubleJeopardy: false,
             price: 2000
